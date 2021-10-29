@@ -2,9 +2,10 @@
   "name": "server-emgrey02",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "node-basics/web-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon",
+    "start": "node node-basics/web-server"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
+    "nodemon": "^2.0.14",
     "prettier": "^2.4.1"
   }
 }
