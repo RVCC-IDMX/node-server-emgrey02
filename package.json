@@ -12,6 +12,7 @@
   },
   "author": "Emma Grey <emgrey02@gmail.com> (https://github.com/emgrey02)",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/RVCC-IDMX/node-server-emgrey02/issues"
   },
